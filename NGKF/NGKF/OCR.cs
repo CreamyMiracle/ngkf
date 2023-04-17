@@ -76,10 +76,6 @@ namespace NGKF
                         {
                             adjustedBmp.Save(ms, System.Drawing.Imaging.ImageFormat.Bmp);
 
-                            FileInfo fi3 = new FileInfo("./final.png");
-                            adjustedBmp.Save(fi3.FullName);
-                            fi3.Delete();
-
                             List<string> text = Parse(ms.ToArray());
 
                             Console.WriteLine(String.Join(Environment.NewLine, text.ToArray()));

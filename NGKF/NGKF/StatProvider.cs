@@ -42,11 +42,10 @@ namespace NGKF
 
         public void StartScanning()
         {
-            //System.Timers.Timer aTimer = new System.Timers.Timer();
-            //aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
-            //aTimer.Interval = _ocrScanIntervalMillis;
-            //aTimer.Enabled = true;
-            OnTimedEvent(null, null);
+            System.Timers.Timer aTimer = new System.Timers.Timer();
+            aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
+            aTimer.Interval = _ocrScanIntervalMillis;
+            aTimer.Enabled = true;
         }
 
         private void OnTimedEvent(object? sender, ElapsedEventArgs e)
