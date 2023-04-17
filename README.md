@@ -9,7 +9,7 @@ As pseudo-code this app
 2. Fetches player stats from [Fortnite API](https://fortnite-api.com/ "Fortnite API")
 3. Displays the stats in an overlay based on [GameOverlay.Net](https://github.com/michel-pi/GameOverlay.Net "GameOverlay.Net")
 
-There is a config file named *NGKF.dll.config* that contains parameters like API Key, your player name, OCR tuning parameters and NGKF overlay parameters. Explore the file to get a better understanding.
+There is a config file named *App.config* (or *NGKF.dll.config* when built) that contains parameters like API Key, your player name, OCR tuning parameters and NGKF overlay parameters. Explore the file to get a better understanding.
 
 
 ## Remarks
