@@ -1,7 +1,7 @@
 # NGKF - Next Generation Kill Feed
 
 ## What?
-C# console app that uses [Fortnite API C# wapper](https://github.com/Fortnite-API/csharp-wrapper "Fortnite API C# wapper"), [GameOverlay.Net](https://github.com/michel-pi/GameOverlay.Net "GameOverlay.Net") and [Tesseract C# wrapper](https://github.com/charlesw/tesseract "Tesseract C# wrapper") in order to provide real-time player statistics based on ongoing Fortnite match elimination feed
+.NET 7.0 C# console app that uses [Fortnite API C# wapper](https://github.com/Fortnite-API/csharp-wrapper "Fortnite API C# wapper"), [GameOverlay.Net](https://github.com/michel-pi/GameOverlay.Net "GameOverlay.Net") and [Tesseract C# wrapper](https://github.com/charlesw/tesseract "Tesseract C# wrapper") in order to provide real-time player statistics based on ongoing Fortnite match elimination feed
 
 ## How?
 As pseudo-code this app
